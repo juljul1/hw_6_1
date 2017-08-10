@@ -1,0 +1,64 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+h3{
+	margin-left: 40px;
+	color: red;
+}
+p{
+	margin: 10px;
+}
+.green{
+	background-color: green;
+	height: 100px;
+	width: 100px;
+}
+p.green:hover{
+	background-color: yellow;
+}
+p.green:active{
+	background-color: red;
+}
+.violet{
+	background-color: violet;
+	height: 100px;
+	width: 100px;
+}
+p.violet:hover{
+	background-color: gray;
+}
+p.violet:active{
+	background-color: gold;
+}
+input:focus { 
+    border: 2px solid green;
+   }
+p.child:nth-child(odd) {
+background: gray;
+}
+.child::before{
+	content: "\2602";
+}
+p.first::first-letter{
+	font-size: 2em;
+	color: red;
+	font-family: Georgia;
+}
+.first::after{
+	content: "*";
+}
+div{
+	width: 50px;
+	height: 25px;
+	margin: 30px;
+	background-color: black;
+}
+div::before {
+    content: ''; 
+    position: absolute;
+    left: 10px; 
+    border: 7px solid transparent;
+    border-right: 13px solid black;
+    margin-top: 5px;
+   }
