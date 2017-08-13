@@ -33,6 +33,7 @@ p.violet:active{
 }
 input:focus { 
     border: 2px solid green;
+    outline: 0px;
    }
 p.child:nth-child(odd) {
 background: gray;
